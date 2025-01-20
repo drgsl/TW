@@ -59,3 +59,19 @@ Here is a simple example of how to create and run a Docker container:
 ## Official Documentation
 
 For more information, visit the [official Docker documentation](https://docs.docker.com/).
+
+## Deployment
+
+To deploy this project using Docker, follow these steps:
+
+1. **Build the Docker Image**: Open a terminal and navigate to the root directory of the project. Run the following command to build the Docker image:
+   ```sh
+   docker build -t tw-project .
+   ```
+
+2. **Run the Docker Container**: Run the following command to create and start a Docker container from the image:
+   ```sh
+   docker run -p 4000:80 tw-project
+   ```
+
+3. **Access the Application**: Open a web browser and navigate to `http://localhost:4000` to see the application running inside the Docker container.

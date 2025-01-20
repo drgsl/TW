@@ -12,3 +12,13 @@ This repository contains 1-on-one replica quick start guides for essential web t
 - [Ollama](ollama/README.md)
 - [GPT](gpt/README.md)
 - [Docker](docker/README.md)
+
+## Deployment
+
+To deploy this project using GitHub Pages, follow these steps:
+
+1. **Ensure `index.html` is in the root directory**: Make sure the `index.html` file is located at the root level of the repository.
+
+2. **Configure GitHub Pages**: Go to the repository settings on GitHub. Scroll down to the "GitHub Pages" section. Under "Source," select the `main` branch and the root folder. Click "Save" to enable GitHub Pages for your repository.
+
+3. **Access the Application**: Your site will be published at `https://<username>.github.io/TW/`. Open a web browser and navigate to this URL to see the application running.
